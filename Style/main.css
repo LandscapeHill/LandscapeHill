@@ -2,9 +2,14 @@
     border: 2px solid red;
 } */
 
+.bluebox {
+    border: 2px solid blue;
+}
+
 body {
     display: flex;
     margin: 0;
+    background-color: #D1D3D4;
 }
 
 /* Side navigation bar and logo */
@@ -57,3 +62,9 @@ li a.active {
     width: 100%;
     padding-left: 10px;
 }
+
+
+#farmImage {
+    height: 150px;
+}
+

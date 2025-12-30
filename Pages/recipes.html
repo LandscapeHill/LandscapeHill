@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="../Style/main.css">
+        <link rel="stylesheet" href="../Style/recipe.css"
     </head>
     <body>
         
@@ -14,7 +15,7 @@
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="diary.html">Farm Diary</a></li>
                     <li><a href="types.html">Garlic Types</a></li>
-                    <li><a href="recipes.html" class="active">Suggested recipes</a></li>
+                    <li><a href="recipes.html" class="active">Suggested Recipes</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,11 +27,65 @@
             </div>
 
             <div id="mainContent" class="redbox">
-                <p>Recipes and photos here</p>
-            </div>
+                
+                <!-- Start of recipes here-->
 
+                <!-- Recipe block start -->
+
+                <div class="recipeBlock">
+
+                    <div class="recipePhoto">
+                        <img src="../images/default.jpg">
+                    </div>
+
+                    <div class="recipeContent">
+                        <h2 class="recipeName">Name of recipe</h2>
+
+                        <p class="recipeDescription">
+                            Short description of the recipe goes here. This stays visible.
+                        </p>
+
+                        <button class="toggleRecipe">Show full recipe</button>
+
+                        <div class="recipeDetails">
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>Ingredient 1</li>
+                                <li>Ingredient 2</li>
+                            </ul>
+
+                            <h3>Method</h3>
+                            <ol>
+                                <li>Step 1</li>
+                                <li>Step 2</li>
+                            </ol>
+
+                            <p class="recipeSource">
+                                <strong>Source:</strong> Website / Book name
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe block end -->
+
+
+                
+            </div>
         </div>
 
+        <!-- JS for show full recipe button -->
+        <script>
+        document.querySelectorAll('.toggleRecipe').forEach(button => {
+            button.addEventListener('click', () => {
+                const details = button.nextElementSibling;
+                details.classList.toggle('show');
 
+                button.textContent = details.classList.contains('show')
+                    ? 'Hide full recipe'
+                    : 'Show full recipe';
+            });
+        });
+        </script>
     </body>
 </html>
