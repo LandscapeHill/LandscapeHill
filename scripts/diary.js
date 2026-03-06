@@ -12,7 +12,7 @@
 //    year        — numeric year
 //    month       — numeric month (1–12)
 //    image       — path to photo relative to the HTML file
-//    alt         — alt text for the image (accessibility)
+//    alt         — alt text for the image (accessibility) 
 //    description — caption shown below the photo
 // ============================================================
 
