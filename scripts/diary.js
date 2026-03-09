@@ -113,7 +113,7 @@ description: "Double rainbow after 300mm rain in a day at start of January."
 date: "December 2023",
 year: 2023,
 month: 12,
-image: "../images/diary/2023/December2.jpg",
+image: "../images/diary/2023/December3.jpg",
 alt: "Panic harvest of silverskins before forecast torrential rain at end of December 2023",
 description: "Panic harvest of silverskins before forecast torrential rain at end of December 2023."
 },
