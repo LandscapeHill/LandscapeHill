@@ -15,11 +15,10 @@ const recipes = [
       "Good grinding pepper"
     ],
     method: [
-      "Boil the pasta in salted water.",
-      "Cook pancetta until crispy.",
-      "Whisk eggs and parmesan together.",
-      "Combine pasta with pancetta and remove from heat.",
-      "Stir in egg mixture quickly."
+      "Preheat the oven to 350 degrees F.",
+      "Heat the oil on the stovetop in a wide, shallow ovenproof and flameproof Dutch oven (that will snugly fit the chicken in one layer once butterflied, and that has a lid), and sear the chicken over a high heat, skin-side down for approximately 5 minutes. Flip and brown other side of chicken, then remove and place to the side.",
+      "Add the sliced spring onions to the Dutch oven and quickly stir-fry with the leaves from a few sprigs of thyme or tarragon.",
+      "Put 20 of the unpeeled cloves of garlic (papery excess removed) into the pan with the spring onions, top with the chicken skin-side up, then cover with the remaining 20 cloves of garlic. Add the vermouth (or white wine) and any juices from where the chicken was sitting. Sprinkle with the salt, grind over the pepper, and add the other sprigs of thyme or tarragon. Put on the lid and cook in the oven for 1½ to 2 hours. Cooking time will depend on the size of the chicken."
     ],
     notes: [
         "Chicken thighs can be used instead of a whole chicken, with the cooking time reduced to 1 ½ hrs (check at 1 ¼ hrs).",
