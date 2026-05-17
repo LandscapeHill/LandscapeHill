@@ -164,7 +164,7 @@ description: "First plaits!!."
 date: "October 2019",
 year: 2019,
 month: 10,
-image: "../images/diary/2019/October.jpg",
+image: "../images/diary/2019/October.JPG",
 alt: "Protection for the first crop",
 description: "Protection for the first crop."
 },
@@ -173,7 +173,7 @@ description: "Protection for the first crop."
 date: "May 2019",
 year: 2019,
 month: 5,
-image: "../images/diary/2019/May.jpg",
+image: "../images/diary/2019/May.JPG",
 alt: "Prepping for the first planting",
 description: "Prepping for the first planting."
 }
