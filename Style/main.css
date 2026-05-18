@@ -3,7 +3,13 @@
 } */
 
 .bluebox {
-    border: 2px solid blue;
+    width: 100%;
+}
+
+.bluebox img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 html, body {
@@ -73,7 +79,34 @@ li a.active {
 }
 
 
-#farmImage {
+/* #farmImage {
     height: 150px;
+} */
+
+#upcomingHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.greenBox {
+    border: 2px solid green;
+}
+
+
+
+.datesUpcominmg {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.datesUpcominmg > div {
+    flex: 1 1 200px;
+    height: 100%;
+    border: 2px solid black;
 }
 
